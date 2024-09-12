@@ -1,0 +1,27 @@
+/* 
+font-weight - Negrito - porém não tem importância semântica.
+line-height - Espaçamento entre linhas.
+text-align - Alinhamento de Texto, left, right, justify e center
+text-indent - Identação do texto, da o espaço do começo do parágrafo.
+*/
+
+span {  
+    /* font-weight: 500; */
+    font-weight: bold;
+    text-align: left;
+    font-style: italic;
+}
+strong {
+    font-weight: 100;
+}
+article {
+    font-style: italic;
+    color: orange;
+    text-align: right;
+}
+p {
+    text-indent: 50px;
+    line-height: 250%;
+    text-shadow: ;
+}
+

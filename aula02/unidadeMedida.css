@@ -1,0 +1,36 @@
+* {
+    font-size: 20px;
+}
+/* rem - Valor numérico com unidade, seu tamanho está
+relacionado ao elemento root. */
+
+p {
+    display: none;
+    /*remove os elemenotos mostrados em tela */
+    font-size: 20px;
+    /* font-size: 1cm */
+    /* font-size: 10px */
+    /* font-size: 1n */
+}
+
+/* em - Valor numérico com unidade, seu tamanho está
+relacionado ao tamanho do elemento superior */
+
+h2 {
+    display: none;
+    /*remove os elementos mostrados em tela */
+    font-size: 32px;
+}
+
+ul {
+    list-style: none;
+    /* Remove o marcador da lista */
+    font-size: 2em;
+    /* 20px * 2 = 40px */
+}
+
+li {
+    font-size: 3rem;
+    /* 20px * 3 = 60px */
+}
+
