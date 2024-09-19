@@ -1,0 +1,15 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+#shrek::after {
+    content: "😂";
+}
+#shrek::first-letter {
+    font-size: 50px;
+}
+#shrek::first-line {
+    font-style: italic;
+}

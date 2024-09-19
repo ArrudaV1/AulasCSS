@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.box {
+    text-align: center;
+    padding: 50px 50px 50px 50px;
+}
+.container {
+    line-height: 30px;
+    margin: 20px 20px 20px 30px;
+    padding: 20px 20px 20px 50px;
+    width: 100vw;
+    height: 50vh;
+
+}
+.outro {
+    line-height: 25px;
+    margin: 20px 20px 20px 30px;
+    padding: 20px 20px 20px 50px;
+    width: 100vw;
+    height: 40vh;
+
+}
+.contato {
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+    width: 100vw;
+    height: 5vh;
+
+}
+.imagem {
+    
+    float: right;
+}
