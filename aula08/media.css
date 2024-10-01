@@ -1,0 +1,37 @@
+.texto {
+    font-size: 2.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* 
+media screen
+media print
+media landscape
+media speech 
+*/
+/* 1201 x +, 769 x 1024 e 320 x 480. */
+@media screen and (max-width: 320px) {
+    h1 {
+        color: red;
+    }
+}
+
+@media print and (max-width: 1220px) {
+    h2 {
+        color: green;
+        text-align: center;
+    }
+}
+
+@media (max-width: 769px) {
+    h3 {
+        color: blue;
+        text-align: right;
+    }
+}
+@media (min-width: 1024px) {
+    h4 {
+        color: blueviolet;
+    }
+}
+
+@media (min-width: 1025px)

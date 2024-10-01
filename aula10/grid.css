@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    height: 500px;
+    width: 800px;
+    margin: 50px auto;
+    background-color: silver;
+    border: dotted 1px purple;
+    display: grid;
+    /* grid-template-columns: 25% 25% 25% 25%;  */
+    /* grid-template-columns: 200px 200px 200px 200px; */
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas: 
+    "header header header header header"
+    "prop prop main main main"
+    "prop prop main main main"
+    "prop prop main main main"
+    "footer footer footer footer footer"
+    ;
+}
+.box1 {
+    grid-area: header;
+    background-color: red;
+    text-align: center;
+}
+.box2 {
+    grid-area: prop;
+    background-color: green;
+    text-align: center;
+}
+.box3 {
+    grid-area: main;
+    background-color: blue;
+    text-align: center;
+}
+.box4 {
+    grid-area: footer;
+    background-color: yellow;
+    text-align: center;
+}

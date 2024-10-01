@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#container {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas: 
+    "caixa1 caixa1 caixa1 caixa1 caixa1"
+    "caixa2 caixa2 caixa2 caixa2 caixa2"
+    "caixa3 caixa3 caixa3 caixa3 caixa3"
+    "caixa4 caixa4 caixa4 caixa4 caixa4"
+    "caixa5 caixa5 caixa5 caixa5 caixa5"
+    ;
+}
+
+.caixa1 {
+    background-color: red;
+    grid-area: caixa1;
+}
+.caixa2 {
+    background-color: green;
+    grid-area: caixa2;
+}
+.caixa3 {
+    background-color: blue;
+    grid-area: caixa3;
+}
+.caixa4 {
+    background-color: yellow;
+    grid-area: caixa4;
+}
+.caixa5 {
+    background-color: purple;
+    grid-area: caixa5;
+}
